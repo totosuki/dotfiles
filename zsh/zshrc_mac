@@ -1,3 +1,10 @@
+# p10k
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
 # binutils
 export PATH="/usr/local/opt/binutils/bin:$PATH"
 
@@ -9,10 +16,11 @@ alias code="/Applications/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/
 
 # oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="jnrowe"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     copypath
     zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 source $ZSH/oh-my-zsh.sh
 
