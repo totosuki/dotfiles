@@ -1,0 +1,30 @@
+# p10k
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# binutils
+export PATH="/usr/local/opt/binutils/bin:$PATH"
+
+# oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+plugins=(
+    copypath
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+source $ZSH/oh-my-zsh.sh
+
+# aliases
+alias bcd="source $HOME/tools/commands/bcd.sh"
+alias edit="$HOME/Software/edit/target/release/edit"
+alias edit-fork="$HOME/Project/edit/target/release/edit"
+alias ipshow="$HOME/tools/commands/ipshow.sh"
+alias lchat-client="$HOME/Project/lchat/lchat/target/release/client"
+alias lchat-server="$HOME/Project/lchat/lchat/target/release/server"
+alias g="source $HOME/tools/commands/g.sh"
+alias glog="source $HOME/tools/commands/glog.sh"
+alias jmp="source jmp"
+alias vcomp="$HOME/tools/commands/vcomp.sh"
