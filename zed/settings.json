@@ -1,0 +1,9 @@
+{
+  "auto_update": false,
+  "buffer_font_family": "MesloLGS NF",
+  "buffer_font_size": 20.0,
+  "cursor_shape": "block",
+  "theme": "Ayu Dark",
+  "ui_font_family": "MesloLGS NF",
+  "vim_mode": true
+}
