@@ -51,7 +51,47 @@ set smartindent
 set wildmode=list:longest
 syntax enable
 set ruler
-set statusline=\ %F%m%=%l/%L\ 
+set statusline=\ %F%m%=%l/%L\
+
+" Ayu Dark テーマカラー設定
+set background=dark
+set termguicolors
+
+" 基本カラー
+highlight Normal guibg=NONE guifg=#B3B1AD
+highlight LineNr guibg=NONE guifg=#3E4B59
+highlight CursorLine guibg=NONE guifg=NONE
+highlight CursorLineNr guibg=NONE guifg=#E6B450
+highlight Visual guibg=#273747
+highlight Search guibg=#FF9940 guifg=#0A0E14
+highlight IncSearch guibg=#E6B450 guifg=#0A0E14
+
+" ステータスライン
+highlight StatusLine guibg=#0D1016 guifg=#B3B1AD
+highlight StatusLineNC guibg=#0D1016 guifg=#3E4B59
+
+" シンタックスハイライト
+highlight Comment guifg=#5C6773 gui=italic
+highlight Constant guifg=#FFEE99
+highlight String guifg=#AAD94C
+highlight Character guifg=#95E6CB
+highlight Number guifg=#FFEE99
+highlight Boolean guifg=#FFEE99
+highlight Identifier guifg=#FFB454
+highlight Function guifg=#FFB454
+highlight Statement guifg=#FF8F40
+highlight Keyword guifg=#FF8F40
+highlight Operator guifg=#F29668
+highlight Type guifg=#39BAE6
+highlight Special guifg=#E6B450
+highlight Error guibg=#F51818 guifg=#FFFFFF
+highlight Todo guibg=#E6B450 guifg=#0A0E14
+
+" Vim UI要素
+highlight Pmenu guibg=#0D1016 guifg=#B3B1AD
+highlight PmenuSel guibg=#273747 guifg=#E6B450
+highlight VertSplit guibg=NONE guifg=#0D1016
+highlight Folded guibg=NONE guifg=#3E4B59
 
 " Tab系
 set expandtab
