@@ -5,5 +5,6 @@
   "cursor_shape": "block",
   "theme": "Ayu Dark",
   "ui_font_family": "MesloLGS NF",
+  "vertical_scroll_margin": 999,
   "vim_mode": true
 }
