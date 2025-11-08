@@ -1,0 +1,32 @@
+# Window settings
+[window]
+title = "Alacrittyyyyyy"
+class = "Alacritty"
+dimensions = { columns = 80, lines = 24 }
+padding = { x = 20, y = 20 }
+decorations = "None"
+startup_mode = "Maximized"
+opacity = 1
+blur = false
+
+# Font Settings
+[font]
+normal = { family = "MesloLGS NF", style = "Regular" }
+bold = { family = "MesloLGS NF", style = "Bold" }
+italic = { family = "MesloLGS NF", style = "Italic" }
+size = 18.0
+offset = { x = 0, y = 1 }
+
+# Colors
+[colors]
+primary.background = "#000000"
+transparent_background_colors = true
+
+# Keyboard
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control", action = "Paste"  },
+  { key = "F11", action = "ToggleFullscreen" },
+  { key = "+", mods = "Control | Shift", action = "IncreaseFontSize" },
+  { key = "-", mods = "Control", action = "DecreaseFontSize" }
+]
