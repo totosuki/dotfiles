@@ -1,4 +1,6 @@
 {
+  "format_on_save": "off",
+  "disable_ai": true,
   "auto_update": false,
   "buffer_font_family": "MesloLGS NF",
   "buffer_font_size": 20.0,

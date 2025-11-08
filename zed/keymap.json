@@ -8,7 +8,8 @@
       "ctrl-p": "editor::MoveUp",
       "ctrl-e": "editor::MoveToEndOfLine",
       "ctrl-a": "editor::MoveToBeginningOfLine",
-      "ctrl-k": "editor::DeleteToEndOfLine"
+      "ctrl-k": "editor::DeleteToEndOfLine",
+      "ctrl-d": "editor::Delete"
     }
   },
   {
