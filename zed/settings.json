@@ -8,5 +8,16 @@
   "theme": "Ayu Dark",
   "ui_font_family": "MesloLGS NF",
   "vertical_scroll_margin": 999,
-  "vim_mode": true
+  "vim_mode": true,
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "completion": {
+          "autoimport": {
+            "enable": true
+          }
+        }
+      }
+    }
+  }
 }
