@@ -5,6 +5,7 @@
   "buffer_font_family": "MesloLGS NF",
   "buffer_font_size": 20.0,
   "cursor_shape": "block",
+  "ensure_final_newline_on_save": false,
   "theme": "Ayu Dark",
   "ui_font_family": "MesloLGS NF",
   "vertical_scroll_margin": 999,
