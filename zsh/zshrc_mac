@@ -47,3 +47,19 @@ export NVM_DIR="$HOME/.nvm"
 # Rust
 source "$HOME/.cargo/env"
 
+
+# bun completions
+[ -s "/Users/totosuki/.bun/_bun" ] && source "/Users/totosuki/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# ghcup-env
+[ -f "/Users/totosuki/.ghcup/env" ] && . "/Users/totosuki/.ghcup/env"
+
+# Claude Code
+export PATH="$HOME/.local/bin:$PATH"
+
+# Initialize
+cd ~
