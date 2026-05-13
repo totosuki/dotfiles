@@ -29,4 +29,3 @@ bindings = [
   { key = "+", mods = "Control | Shift", action = "IncreaseFontSize" },
   { key = "-", mods = "Control", action = "DecreaseFontSize" }
 ]
-
